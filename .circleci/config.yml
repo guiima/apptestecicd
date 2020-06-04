@@ -9,6 +9,9 @@ jobs:
           command: yarn eslint
           name: Run ESLint
       - run:
+          command: bundle install
+          name: Bundle
+      - run:
           command: yarn android
           name: Android
       - run:
