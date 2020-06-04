@@ -31,7 +31,7 @@ jobs:
           command: bundle exec fastlane android release
           name: Run Fastlane
 orbs:
-  rn: react-native-community/react-native@1.0.0
+  react-native: react-native-community/react-native@4.4.2
 version: 2.1
 workflows:
   test:
