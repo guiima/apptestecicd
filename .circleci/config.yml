@@ -9,8 +9,8 @@ jobs:
           command: yarn eslint
           name: Run ESLint
       - run:
-          command: yarn flow
-          name: Flow
+          command: yarn android
+          name: Android
       - run:
           command: yarn jest
           name: Jest
